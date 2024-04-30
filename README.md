@@ -44,7 +44,7 @@ MyPasswords is a password management application that allows users to securely s
    
    ```bash
    php artisan serve
-Acces the aplication at http://localhost:8000.
+Access the aplication at http://localhost:8000.
 
 ## Contribution
 
