@@ -82,10 +82,12 @@ a {
     height: 40px;
     font-weight: 600;
     transition: 0.5s;
+    border-radius: 4px;
 }
 
 a:hover {
     background-color: rgb(40, 40, 194);
+    color:white;
 }
 
 

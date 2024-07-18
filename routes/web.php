@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PasswordController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::get('/home', [PasswordController::class, 'index'])->name('home');
 Route::post('/password', [PasswordController::class, 'store'])->name('password.store');
 Route::put('/password/{password_id}', [PasswordController::class, 'update'])->name('password.update');
 Route::delete('/password/{password_id}', [PasswordController::class, 'destroy'])->name('password.destroy');
+Route::get('/user', [UserController::class, 'fetch'])
+    ->name('profile');
+Route::post('/user/{id}', [UserController::class, 'update'])->name('user.update');
