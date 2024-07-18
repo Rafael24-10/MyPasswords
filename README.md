@@ -23,7 +23,7 @@ MyPasswords is a password management application that allows users to securely s
  
    ```bash
    git clone https://github.com/your-username/MyPasswords.git
-3. Install Composer dependencies:
+3. Install dependencies:
   
    ```bash
    cd MyPasswords
