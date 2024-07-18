@@ -28,7 +28,7 @@ MyPasswords is a password management application that allows users to securely s
    ```bash
    cd MyPasswords
    composer install
-   npm run dev
+   npm install
 4. Copy the .env.example file to .env and configure the database:
     
     ```bash
@@ -45,6 +45,7 @@ MyPasswords is a password management application that allows users to securely s
    
    ```bash
    php artisan serve
+   npm run dev
 Access the aplication at http://localhost:8000.
 
 ## Contribution
