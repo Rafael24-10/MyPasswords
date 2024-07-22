@@ -23,25 +23,25 @@ MyPasswords is a password management application that allows users to securely s
  
    ```bash
    git clone https://github.com/your-username/MyPasswords.git
-3. Install dependencies:
+2. Install dependencies:
   
    ```bash
    cd MyPasswords
    composer install
    npm install
-4. Copy the .env.example file to .env and configure the database:
+3. Copy the .env.example file to .env and configure the database:
     
     ```bash
     cp .env.example .env
-5. Generate the application key:
+4. Generate the application key:
     
     ```bash
     php artisan key:generate
-6. Run database migrations to create necessary tables:
+5. Run database migrations to create necessary tables:
 
     ```bash
     php artisan migrate
-7. Start the development server:
+6. Start the development server:
    
    ```bash
    php artisan serve
